@@ -1,0 +1,175 @@
+html{
+    box-sizing: border-box;
+}
+*,*:after, *:before{
+    box-sizing: inherit;
+}
+body{
+  width: 1260px;
+  height: 880px;
+  padding: 0;
+  margin: 0;
+  background-color: #edf2c5
+}
+.container{
+    max-width: 940px;
+    margin: auto;
+    
+}
+.header{
+    display:flex;
+    height: 103px;
+    width: 940px;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.title_vegetables{
+    width: 271px;
+    height: 62px;
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 0.82;
+    color: #778a50;
+    align-items: flex-end;
+}
+.area_a{
+    display: flex;
+    margin-bottom: 18px;
+    height: 25px;
+}
+.icon{
+    display: flex;
+    gap:10px;
+}
+.btn_fb{
+    width: 25px;
+    height: 25px;
+}
+.btn_ig{
+    width: 25px;
+    height: 25px;
+}
+.line{
+    width: 1px;
+    height: 25px;
+    margin: 0 10px 18px;
+    background-color: #778a50;
+}
+.LOGIN_box{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    
+    border: solid 1px ;
+    background-color: #edf2c5;
+    margin-right: 10px;
+    color: #778a50;
+}
+.JOIN_box{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    
+    border: solid 1px ;
+    background-color: #edf2c5;
+    color: #778a50;
+}
+nav{
+    width: 940px;
+    height: 44px;
+    background-color: #778a50;
+    border-radius: 3px;
+}
+.nav_list{
+    display: flex;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    padding:10px;
+}
+.a{
+    display:block;
+    text-decoration: none;
+    color: #edf2c5;
+    margin: 0px 30px;
+}
+.img_main_pumpkin{
+    margin: 20px 0px 30px 0px;
+}
+.vegetables_body{
+    display: flex;
+    width: 940px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.vege{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    color: #edf2c5;
+    padding: 10px 30px;
+    width: 444px;
+    height: 45px;
+    background-color: #778a50;
+    border-radius: 3px;
+    margin:0 0 15px;
+    
+}
+.img_vegetables{
+    display: flex;
+    width: 444;
+    justify-content: space-between;
+}
+
+.area_c {
+    width: 444px;
+    margin-bottom: 35px;
+}
+.text{
+    width: 444px;
+    height: 140px;
+    background-color: #f7fbda;
+}
+.line_contact_text{
+    width: 414px;
+    height: 1px;
+    background-color: #7d7d7d;
+    padding: 0;
+    margin: 15px 15px 0 15px;
+}
+.text_p{
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.25;
+    margin: 0;
+    padding:15px 0 0 15px;
+    color: #7d7d7d;
+    
+}
+.text_e{
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.75;
+    margin: 0;
+    padding:15px 0 0 15px;
+    color: #7d7d7d;
+    
+}
+footer{
+  display: flex;
+  width: 1260px;
+  height: 60px;
+  background-color: #778a50;
+  justify-content: center;
+  align-items: center;
+}
+.footer_text{
+  font-family: Arial;
+  font-size: 12px;
+  color: #edf2c5;
+}
+
